@@ -8,4 +8,8 @@
 
 4. Added a form to the contact page
 
-5. Added sample images to the portfolio
+5. Added sample images to the portfolio with image cards
+
+6. Added contact information
+
+7. Added CSS to portfolio to make images more uniform and to add margins
