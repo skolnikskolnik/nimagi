@@ -35,7 +35,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
-            <h1>Contact Julie</h1>
+            <h1>Request more information</h1>
           </div>
         </div>
       </div>
@@ -61,32 +61,33 @@
   <div class="form-row">
     <div class="col-md-12">
       <label for="validationCustom03">Message</label>
-      <input type="text" class="form-control" id="validationCustom03" notrequired>
+      <input type="text" class="form-control" id="validationCustom03" value="Leave a message for Julie" notrequired>
     </div>
     </div><br>
   <button class="btn btn-secondary" type="submit">Submit form</button>
 </form>
+<br><br>
+<div class="container">
+  <!--First row-->
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Contact Julie</h1>
+    </div>
+  </div>
+    <div class="row">
+      <div class="col-md-3"><p>Phone number</p></div>
+      <div class="col-md-9"><p>(609)-217-1201</p></div>
+    </div>
+    <div class="row">
+      <div class="col-md-3"><p>Github</p></div>
+      <div class="col-md-9"><p><a href="https://github.com/skolnikskolnik">skolnikskolnik</a></p></div>
+    </div>
+    <div class="row">
+      <div class="col-md-3"><p>LinkedIn</p></div>
+      <div class="col-md-9"><p><a href="https://www.linkedin.com/in/julie-altman-0a639165/">Find me on LinkedIn</a></p></div>
+    </div>
+</div>
 
-<script>
-// Example starter JavaScript for disabling form submissions if there are invalid fields
-(function() {
-  'use strict';
-  window.addEventListener('load', function() {
-    // Fetch all the forms we want to apply custom Bootstrap validation styles to
-    var forms = document.getElementsByClassName('needs-validation');
-    // Loop over them and prevent submission
-    var validation = Array.prototype.filter.call(forms, function(form) {
-      form.addEventListener('submit', function(event) {
-        if (form.checkValidity() === false) {
-          event.preventDefault();
-          event.stopPropagation();
-        }
-        form.classList.add('was-validated');
-      }, false);
-    });
-  }, false);
-})();
-</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
