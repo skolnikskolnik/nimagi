@@ -13,3 +13,7 @@
 6. Added contact information
 
 7. Added CSS to portfolio to make images more uniform and to add margins
+
+8. Made the image in the home page responsive
+
+9. Made Submit button take the whole line in contact form
