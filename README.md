@@ -17,3 +17,5 @@
 8. Made the image in the home page responsive
 
 9. Made Submit button take the whole line in contact form
+
+10. Added subpages to the portfolio to fill in with projects as I do them 
